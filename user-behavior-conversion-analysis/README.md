@@ -180,6 +180,7 @@ Absolute values and conversion rates may not mirror real-world platform performa
 ---
 
 ## Project Structure
+```
 user-behavior-conversion-analysis/
 │
 ├── 📓 user_behavior_conversion_analysis.ipynb
@@ -194,3 +195,38 @@ user-behavior-conversion-analysis/
     ├── cart_conversion.png
     ├── monthly_trend.png
     └── weekly_trend.png
+```
+
+---
+## How to Run
+
+1. **Clone this repo**
+```bash
+git clone https://github.com/AnshMathur-1905/Python-Projects.git
+```
+Then navigate to the project folder:
+```bash
+cd Python-Projects/user-behavior-conversion-analysis
+```
+
+2. **Install required libraries**
+```bash
+pip install pandas numpy matplotlib seaborn scipy
+```
+3. **Open the notebook**
+
+   **Option A — Jupyter:**
+```bash
+   jupyter notebook user_behavior_conversion_analysis.ipynb
+```
+   **Option B — Google Colab:**
+   Upload `user_behavior_conversion_analysis.ipynb` and `ecommerce_funnel_dataset.csv` to Colab and run all cells.
+
+4. **Run all cells** — all outputs and charts generate automatically
+
+---
+## Author
+
+**Ansh Mathur**
+
+💼 [**LinkedIn**](https://www.linkedin.com/in/ansh-mathur-4b8a58201/) | 💻 [**GitHub**](https://github.com/AnshMathur-1905)
