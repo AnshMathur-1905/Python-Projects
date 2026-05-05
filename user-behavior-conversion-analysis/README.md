@@ -46,7 +46,7 @@ taking action.
 The problem is not checkout. It is not device type. It is not where 
 traffic comes from. It is the **Product Page failing to convert 
 interest into cart activity.**
-<img width="1420" height="820" alt="image" src="https://github.com/user-attachments/assets/5a77b0d5-b34f-4e1a-8503-2da5a0de271a" />
+<img width="1420" height="820" alt="image" src="images/funnel_dropoff.png" />
 
 ---
 
@@ -88,7 +88,7 @@ Users who purchase spend a median of 167 seconds on page —
 compared to 44 seconds for non-purchasers. The challenge is 
 not getting attention. It is converting that attention into 
 cart activity.
-<img width="940" height="580" alt="image" src="https://github.com/user-attachments/assets/f46d5378-33ab-4734-b72c-87a54d8b75ec" />
+<img width="940" height="580" alt="image" src="images/time_on_page.png" />
 
 
 ### Cart size is the strongest predictor of conversion
@@ -99,19 +99,19 @@ cart activity.
 
 Every additional item added to cart significantly increases 
 purchase probability.
-<img width="1180" height="580" alt="image" src="https://github.com/user-attachments/assets/290f8d31-f971-49ef-bc26-2d0257924502" />
+<img width="1180" height="580" alt="image" src="images/cart_conversion" />
 
 ### Device Type is Not the Problem
 All devices show near-identical conversion rates and funnel 
 drop-off patterns — confirmed statistically (p = 0.936).
-<img width="1660" height="700" alt="image" src="https://github.com/user-attachments/assets/e95fa8c0-e5b4-42a8-8f64-d5710c8817f1" />
+<img width="1660" height="700" alt="image" src="images/device_funnel.png" />
 
 
 ### Referral Source is Significant
 No channel significantly outperforms another (p = 0.124). 
 Direct traffic leads marginally at 6.25%, but the difference 
 is not statistically meaningful.
-<img width="1180" height="580" alt="image" src="https://github.com/user-attachments/assets/d5be1e69-0ffa-47c8-9dab-d3f23b84559c" />
+<img width="1180" height="580" alt="image" src="images/referral_conversion.png" />
 
 
 
@@ -119,8 +119,8 @@ is not statistically meaningful.
 Tuesday (7.20%) and Wednesday (6.39%) are the strongest days. 
 May (7.69%) and July (6.97%) peak across the year, while 
 October–December dip below average.
-<img width="1180" height="580" alt="image" src="https://github.com/user-attachments/assets/213d7b09-bb7a-4af7-8151-0360ca5418d7" />
-<img width="1660" height="580" alt="image" src="https://github.com/user-attachments/assets/0b83cd41-2ec5-4bb7-a872-9a27608b4d75" />
+<img width="1180" height="580" alt="image" src="images/weekly_trend.png" />
+<img width="1660" height="580" alt="image" src="images/monthly_trend.png" />
 
 
 ---
@@ -180,3 +180,17 @@ Absolute values and conversion rates may not mirror real-world platform performa
 ---
 
 ## Project Structure
+user-behavior-conversion-analysis/
+│
+├── 📓 user_behavior_conversion_analysis.ipynb
+├── 📊 ecommerce_funnel_dataset.csv
+├── 📄 README.md
+│
+└── 📁 images/
+    ├── funnel_dropoff.png
+    ├── device_funnel.png
+    ├── referral_conversion.png
+    ├── time_on_page.png
+    ├── cart_conversion.png
+    ├── monthly_trend.png
+    └── weekly_trend.png
